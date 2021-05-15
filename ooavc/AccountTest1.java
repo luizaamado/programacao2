@@ -1,8 +1,5 @@
 package ooavc;
 
-import ooavc.Account;
-import ooavc.SavingsAccount;
-
 public class AccountTest1 {
 
 	public static void main(String[] args) {

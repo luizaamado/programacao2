@@ -7,8 +7,10 @@ public class AccountTest2 {
 		Account account2 = new Account();
 			
 		account1.setId(001);
-		account1.setId(002);
+		account2.setId(002);
 
+		System.out.println(account1.id);
+		System.out.println(account2.id);
 	}
 
 }

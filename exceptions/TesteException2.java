@@ -5,6 +5,7 @@ import java.io.FileReader;
 
 public class TesteException2 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		try {

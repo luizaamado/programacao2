@@ -22,7 +22,6 @@ public class TesteMath1 {
 		System.out.println("d4 (max(d1, d3)) = " + d4);
 		
 		//tarefa: implementar e testar Math.min
-		
 		double d5 = Math.min(d3, d4);
 		System.out.println("d5 (min(d3, d4))= " + d5);
 		
