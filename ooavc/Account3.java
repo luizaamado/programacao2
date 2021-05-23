@@ -8,7 +8,10 @@ public class Account3 {
 	private double balance;
 	private double limit;
 
-
+	public Account3() {
+		
+	}
+	
 	public Account3(int id, String name, double balance, double limit) {
 		super();
 		this.id = id;
@@ -40,12 +43,12 @@ public class Account3 {
 	}
 
 	public double getBalance() {
-		return balance;
+		return this.balance;
 	}
 
-	public void setBalance(double balance) {
-		this.balance = balance;
-	}
+//	public void setBalance(double balance) {
+//		this.balance = balance;
+//	}
 
 	public double getLimit() {
 		return limit;
@@ -55,7 +58,7 @@ public class Account3 {
 		this.limit = limit;
 	}
 	
-	public boolean Withdraw(double value) {
+	public boolean withdraw(double value) {
 		if (value > this.balance + this.limit) {
 			return false;
 		}
@@ -65,8 +68,8 @@ public class Account3 {
 		}
 	}
 	
-	public double Deposit(double value) {
-		return balance + value;
+	public double deposit(double value) {
+		return this.balance + value;
 	}
 	
 	public String Tostring() {

@@ -11,7 +11,7 @@ public class AccountTest1 {
 		account1.setBalance(500);
 		account1.setLimit(200);
 		
-		if (account1.Withdraw(300) == true) {
+		if (account1.withdraw(300) == true) {
 			System.out.println("Withdraw successful. Your new balance is: " + account1.getBalance());
 		}
 		else {

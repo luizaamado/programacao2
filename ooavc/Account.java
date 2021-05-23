@@ -54,7 +54,7 @@ public class Account {
 		this.balance += this.balance * 1.2;
 	}
 	
-	public boolean Withdraw(double value) {
+	public boolean withdraw(double value) {
 		if (value > this.balance + this.limit) {
 			return false;
 		}
@@ -64,7 +64,7 @@ public class Account {
 		}
 	}
 	
-	public double Deposit(double value) {
+	public double deposit(double value) {
 		return balance + value;
 	}
 	
